@@ -116,9 +116,16 @@
               "devServerTarget": "ayus-appoinment-public:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "ayus-appoinment-public"
+  "defaultProject": "ayus-appoinment-public",
+  "cli": {
+    "analytics": "c27c377e-08aa-47ae-9b12-f8465964be82"
+  }
 }

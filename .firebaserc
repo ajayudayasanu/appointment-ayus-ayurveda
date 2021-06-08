@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "ayus-ayurveda": {
+      "hosting": {
+        "ayus-appoinment-public": [
+          "ayus-ayurveda"
+        ]
+      }
+    }
+  }
+}
