@@ -1,7 +1,7 @@
 {
   "hosting": [
     {
-      "target": "ayus-appoinment-public",
+      "site": "ayus-public-appointment",
       "public": "dist/ayus-appoinment-public",
       "ignore": [
         "**/.*"
