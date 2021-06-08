@@ -9,10 +9,12 @@ import { AngularFireModule } from '@angular/fire';
 import { AngularFireAuthModule } from '@angular/fire/auth';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
 import { AngularFireAnalyticsModule } from '@angular/fire/analytics';
+import { MakeAppoinmentComponent } from './components/make-appoinment/make-appoinment.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MakeAppoinmentComponent
   ],
   imports: [
     BrowserModule,
